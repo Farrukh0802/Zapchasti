@@ -1,0 +1,260 @@
+@font-face{
+    font-family: "Lato-Bold";
+    src: url("../fonts/Lato/Lato-Bold.ttf");
+    font-family: "Lato-Regular";
+    src: url("../fonts/Lato/Lato-Regular.ttf")
+}
+.wrapper{
+    box-sizing: border-box;
+}
+.first{
+    background-image: url("../images/kuvoz2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: relative;
+}
+.first::before{
+    background-color: rgba(0, 0, 0, 0.788);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 98%;
+  }
+  .logo{
+    color: #fff;
+    position: relative;
+    right: -20%;
+    top: 30px;
+    font-size: 30px;
+    font-family: "Lato-Regular", sans-serif;
+  }
+.number{
+    color: #fff;
+    position: relative;
+    right: -65%;
+    top: 30px;
+    margin-right: 0;
+    font-size: 28px;
+    font-family: "Lato-Regular", sans-serif;
+}
+.number1{
+    color: #d91233;
+    text-decoration: underline;
+    position: relative;
+    margin-right: 0;
+    right: -49.5%;
+    top: 55px;
+    font-size: 16px;
+    font-family: "Lato-Regular", sans-serif;
+}
+.one{
+    color: #fff;
+}
+.title{
+    margin: 80px 0;
+}
+.title1{
+    font-family: "Lato-Bold", sans-serif;
+    text-transform: uppercase;
+    font-size: 48px;
+    margin-top: 80px;
+}
+.title2{ 
+    font-family: "Lato-Regular", sans-serif;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.btn1, .btn2 {
+    border-radius: 25px;
+    margin: 60px 0 0 0;
+    font-family: "Lato-Regular", sans-serif;
+    font-size: 18px;
+}
+.btn1{
+    margin-left: 80px;
+    margin-bottom: 10px;
+    padding: 10px 50px;
+    background-color: #d91233;
+}
+.btn2{
+    margin-left: 40px;
+    padding: 10px 50px;
+}
+.info{
+    margin: 10px 40px 60px 0;
+}
+.col-4 > .list{
+    margin-left: 120px;
+    margin-top: 15px;
+}
+  .col-4 > svg{
+      margin-left: 120px;
+  }
+  .col-4 > .truck{
+      margin-top: 15px;
+  }
+  .col-4 > .options{
+      margin: 25px 40px 60px 40px;
+      cursor: pointer;
+      font-size: 18px;
+      font-family: "Lato-Regular", sans-serif;
+  }
+  /*end of section 1*/
+  .second{
+      display: flex;
+  }
+   .third3{
+      display: flex;
+      justify-content: space-evenly;
+  }
+  .two{
+      margin: 50px 40px;
+  }
+  .two > h4{
+      cursor: pointer;
+      font-size: 16px;
+      font-family: "Lato-Bold", sans-serif;
+  }
+  .two > p{
+    font-size: 14px;
+    font-family: "Lato-Regular", sans-serif;  
+  }
+  .two > img{
+     margin: 10px 0 20px 100px;
+  }
+  .three{
+    margin: 50px 0;
+}
+  .three > img{
+    margin: 10px 0 20px 100px;
+}
+.three > p{
+    font-size: 14px;
+    font-family: "Lato-Regular", sans-serif;  
+}
+.three > h4{
+    cursor: pointer;
+    font-size: 14px;
+    font-family: "Lato-Regular", sans-serif;  
+}/*end of section 2*/
+
+.third{
+    background-color: #ebebeb;
+}
+.jumbotron > .title3{
+    font-size: 30px;
+    font-family: "Lato-Regular", sans-serif; 
+}
+.details{
+    display: flex;
+    justify-content: space-evenly;
+}
+.jumbotron > .title4{
+    font-size: 16px;
+    font-family: "Lato-Regular", sans-serif; 
+    margin-bottom: 80px;
+}
+.card-body{
+    background-color: #E9ECEF;
+    border: 5px solid #fff;
+}
+.price{
+    background-color: #d91233;
+    font-family: "Lato-Bold", sans-serif; 
+    font-size: 18px; 
+    padding: 10px 85px;
+    border-radius: 30px;
+    margin-top: 30px;
+}/*end of section 3*/
+.avto{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.vid{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.video{
+    display: flex;
+    justify-content: center;
+}
+.movie{
+    border: 5px solid #f2f2f2;
+    padding: 10px;
+    margin-bottom: 100px;
+}/*end of section 4*/
+.fifth{
+    background-color: #ebebeb;
+    padding-top: 100px;
+}
+.clients{
+    margin-bottom: 70px;
+}
+.faq{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.feedbacks{
+    display: flex;
+    justify-content: space-between;
+}
+.ivan{
+    color: #757575;
+    font-size: 12px;
+    font-family: "Lato-Regular", sans-serif; 
+}
+.contents{
+    color: #d91233;
+    font-size: 16px;
+    font-family: "Lato-Bold", sans-serif; 
+}
+.main{
+    color: #2b2b2b;
+    font-size: 13px;
+    font-family: "Lato-Bold", sans-serif; 
+}
+.image1{
+    margin: 15px;
+}/*end of section 5*/
+
+.order{
+    font-size: 18px;
+    font-family: "Lato-Bold", sans-serif; 
+    padding: 15px 50px;
+    border-radius: 30px;
+}
+.sixth, .last {
+    background-color: #dbdbdb;
+}
+.last{
+    margin-bottom: 0;
+}
+.cons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}/*end of section 6*/
+.map{
+    position: relative;
+}
+.red{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #d91233;
+}
+.adress{
+    font-size: 24px;
+    color: #fff;
+    font-family: "Lato-Bold", sans-serif; 
+}
+.adress1{
+    font-size: 20px;
+    color: #fff;
+    font-family: "Lato-Light", sans-serif; 
+}
