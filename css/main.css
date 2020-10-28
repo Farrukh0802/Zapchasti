@@ -76,7 +76,29 @@
     margin-left: 80px;
     margin-bottom: 10px;
     padding: 10px 50px;
-    background-color: #d91233;
+}
+
+.close{
+    cursor: pointer;
+}
+.fast1{
+    font-size: 12px;
+    color: #2b2b2b;
+    font-family: "Lato-Light", sans-serif; 
+}
+.send{
+    font-size: 18px;
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px 20px;
+    margin-left: 13%;
+}
+.send1{
+    font-size: 18px;
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px 20px;
+    margin-left: 30%;
 }
 .btn2{
     margin-left: 40px;
